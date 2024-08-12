@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms Demo</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+
+    <form action="tacos">
+      <button type="button">"PLEASE DO NOT SUBMIT THE FORM"</button
+      ><!--it wont submit it-->
+      <!--<button type="submit">"PLEASE DO NOT SUBMIT THE FORM"</button> will submit the page anyway,unless the type is changed to "submit"-->
+      <p>
+        <label for="username">Enter a username</label>
+        <input id="username" type="text" placeholder="username" />
+      </p>
+      <label for="password">Enter a password</label>
+      <input type="password" placeholder="password" />
+      <p>
+        <label for="color">Enter a Color</label>
+        <input type="color" />
+      </p>
+      <p>
+        <label for="number">Enter number</label>
+        <input type="number" placeholder="enter a number" />
+      </p>
+      <button>Submit</button>
+      <input type="submit" value="Click Me!" />
+      <!--(it will work,but not advisable to use this way for creating a button)-->
+      <button>NOT Inside Form</button>
+      <h2>Hijacking Searches</h2>
+      <h3>search reddit</h3>
+    </form>
+    <form action="https://www.reddit.com/search/?q=s">
+      <input type="text" name="q" />
+      <button>Reddit</button>
+    </form>
+    <h3>search Google</h3>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>Google</button>
+    </form>
+    <h3>search YouTube</h3>
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" />
+      <button>YouTube</button>
+    </form>
+
+    <h2>More Inputs</h2>
+
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">I agree to everything</label>
+
+      <p>
+        <label for="s">S</label>
+        <input type="radio" name="size" id="S" value="Small" />
+
+        <label for="M">M</label>
+        <input type="radio" name="size" id="M" value="medium" />
+
+        <label for="L">L</label>
+        <input type="radio" name="size" id="L" value="Large" />
+
+      </p>
+
+      <p>
+        <label for="meal">Please select an Entree</label>
+        <select name="meal" id="meal">
+          <option value="Fish">Fish</option>
+          <option value="Meat">Vegetarian</option>
+          <option value="Fruits">Fruits</option>
+        </select>
+      </p>
+      <p>
+        <label for="cheese">Amount of Cheese</label>
+
+        <input
+          type="range"
+          id="cheese"
+          min="0"
+          max="40"
+          value="22"
+          step="2"
+          name="cheese_level"
+        />
+      </p>
+      <p>
+        <label for="requests">Any Special Requests?</label>
+        <br>
+        <textarea name="" id="requests" cols="30" rows="8"></textarea>
+      </p>
+      <button>Submit</button>
+
+      <h2>Validation Demo</h2>
+
+      <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first">
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" minlength="8" maxlength="20" required>
+        </p>
+        <p>
+            <input type="email"required>
+            <!--<input type="url">-->
+        </p>
+        <button>Submit</button>
+      </form>
+    </form>
+  </body>
+</html>
