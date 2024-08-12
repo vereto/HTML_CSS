@@ -1,0 +1,12 @@
+body {
+    color: rgba(101, 11, 29, 0.705);
+}
+section {
+    color: rgb(120, 138, 138);
+}
+form {
+    color:  rgb(146, 21, 144);
+}
+button, input {
+    color:  inherit;
+}

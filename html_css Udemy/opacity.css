@@ -1,0 +1,16 @@
+ section {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(200, 141, 200);
+ }
+ #rgba {
+    width: 50%;
+    height: 50%;
+    background-color: #65a1acba;
+ }
+ #opacity {
+    width: 50%;
+    height: 50%;
+    background-color: lightslategray;
+    opacity: 0.6;
+ }

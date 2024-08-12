@@ -1,0 +1,22 @@
+/*.square {
+    background-color: red;
+}
+.square:nth-child(2n)  {
+
+    background-color: black;
+}*/
+.square {
+    background-color: black;
+}
+.square:nth-child(2n - 1)  {
+
+    background-color: red;
+}
+/*.square {
+    background-color: black;
+}
+.square:nth-child(2n + 1)  {
+
+    background-color: red;
+}
+*/

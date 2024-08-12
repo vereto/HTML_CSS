@@ -1,0 +1,48 @@
+html {
+  font-size: 10px;
+}
+section {
+  background-color: #6f6480;
+  height: 400px;
+  width: 500px;
+}
+div {
+  background-color: #eed4f1;
+  width: 50%;
+  height: 50%;
+}
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%;
+}
+#ems h2 {
+  font-size: 2em;
+  margin-left: 1em;
+}
+#ems h3 {
+  font-size: 1.5em;
+}
+#ems p {
+  font-size: 1em;
+}
+#ems article {
+  font-size: 30px;
+}
+button {
+  font-size: 1em;
+  padding: 0 30px;
+  border-radius: 0.5em;
+  background-color: rgba(134, 224, 199, 0.816);
+  color: white;
+}
+#ems ul {
+  font-size: 1.2em;
+}
+#rems 
+#rems h3{
+   font-size: 3rem;
+}
+#rems ul{
+  font-size: 0.8rem;
+}

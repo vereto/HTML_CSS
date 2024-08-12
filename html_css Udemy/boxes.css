@@ -1,0 +1,69 @@
+body {
+   margin: 0px;
+}
+div {
+    background-color: rgb(248, 179, 179);
+    text-align: center;
+    text-decoration-color: azure;
+}
+h1 {
+    background-color: rgba(85, 79, 80, 0.629);
+    width: 100px;
+    text-align: center;
+    padding-left: 100px;
+}
+span {
+   background-color: rgba(73, 157, 157, 0.507);
+   border: 1px black;
+   display: block;
+}
+ #one {
+    width: 380px;
+    height: 240px;
+    background-color: rgba(232, 231, 188, 0.553);
+    border-width: 5px ;
+    border-color: black;
+    border-style: dashed;
+    box-sizing: border-box;
+    padding-right: 50px;
+ }
+ #two {
+    width:370px;
+    height: 230px;
+    background-color: rgba(241, 241, 147, 0.646);
+    border-width: 9px;
+    border-color: rgb(113, 73, 73);
+    border-style: dotted;
+    box-shadow: inset;
+    box-sizing:content-box;
+    border-top-left-radius: 40%;
+    padding-left: 16px;
+    margin: 20px;
+
+ }
+ #three {
+    width: 400px;
+    height: 220px;
+    background-color: rgba(201, 226, 248, 0.634);
+    border-width: 10px;
+    border-color: rgba(24, 60, 72, 0.15);
+    border-style: groove;
+    border-left-color: rgba(71, 39, 135, 0.309) ;
+    border-left-width:6px ;
+    border-radius: 10% 30%;
+    padding: 10px;
+    margin-top: 10px;
+ }
+ #four {
+    width: 400px;
+    height: 230px;
+    background-color: rgba(127, 255, 212, 0.282);
+    border: 4px solid darkcyan;
+    border-right-color: rgba(9, 44, 31, 0.934);
+    border-radius: 5%;
+    padding-top: 100px;
+    margin: 20px;
+ }
+ button {
+   padding: 10px 50px;
+ }
